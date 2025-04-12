@@ -1,4 +1,4 @@
-# Type converter
+# Type converters
 
 [![build](https://github.com/michurin/tc/actions/workflows/ci.yaml/badge.svg)](https://github.com/michurin/tc/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/michurin/tc/graph/badge.svg?token=KL89T2NJCK)](https://codecov.io/gh/michurin/tc)
@@ -32,12 +32,12 @@ user := struct {
 gender := tc.CmpN(user.Male, "male", "female", "n/a")
 ```
 
-You can simply assume defaults like this:
+You can simply assume defaults for zero values like this:
 
 ```go
 var tmpDir := tc.DefZero(os.GetEnv("TMP"), "/tmp")
 ```
 
-It's only several examples. You can work with nil pointers, defaults values and type casting.
+It's only several examples. You can work with nil pointers, default values and type casting.
 
-Look at documentation and examples.
+Look at [documentation](https://pkg.go.dev/github.com/michurin/tc) for more examples.
