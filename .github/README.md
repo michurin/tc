@@ -1,5 +1,10 @@
 # Type converter
 
+[![build](https://github.com/michurin/tc/actions/workflows/ci.yaml/badge.svg)](https://github.com/michurin/tc/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/michurin/tc/graph/badge.svg?token=KL89T2NJCK)](https://codecov.io/gh/michurin/tc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/michurin/tc)](https://goreportcard.com/report/github.com/michurin/tc)
+[![Go Reference](https://pkg.go.dev/badge/github.com/michurin/tc.svg)](https://pkg.go.dev/github.com/michurin/tc)
+
 Simple every day type conversion tooling.
 
 Thanks to modern golang and generics, you can say now:
