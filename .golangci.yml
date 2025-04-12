@@ -1,0 +1,21 @@
+linters:
+  enable-all: true
+  disable:
+    - ireturn
+    - nlreturn
+    - revive # for tests only
+    - tenv   # deprecated
+    - varnamelen
+    - wsl
+linters-settings:
+  gci:
+    sections:
+      - standard
+      - default
+      - prefix(github.com/michurin/tc)
+  depguard:
+    rules:
+      main:
+        allow:
+          - github.com/michurin/tc
+          - github.com/davecgh/go-spew/spew # for tests only
