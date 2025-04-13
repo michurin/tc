@@ -63,3 +63,9 @@ var tmpDir = tc.DefZero(os.GetEnv("TMP"), "/tmp")
 ## More details
 
 [Documentation](https://pkg.go.dev/github.com/michurin/tc).
+
+## Related resources
+
+- 💡 [Old good AlekSi/pointer](https://pkg.go.dev/github.com/AlekSi/pointer)
+- 💡 [Swiss Army knife from samber](https://pkg.go.dev/github.com/samber/lo)
+- 💬 [Discussion on Reddit](https://www.reddit.com/r/golang/comments/1jxa6o6/i_decided_to_collect_and_publish_simple_type/)
