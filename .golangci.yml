@@ -4,16 +4,22 @@ linters:
   disable:
     - ireturn
     - nlreturn
-    - revive # for tests only
     - varnamelen
     - wsl
   settings:
     depguard:
       rules:
-        main:
+        tests:
+          files:
+            - $test
           allow:
             - github.com/michurin/tc
             - github.com/davecgh/go-spew/spew
+  exclusions:
+    rules:
+      - path: _test.go
+        linters:
+          - revive
 formatters:
   enable:
     - gci

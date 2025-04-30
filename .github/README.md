@@ -4,6 +4,7 @@
 [![codecov](https://codecov.io/gh/michurin/tc/graph/badge.svg?token=KL89T2NJCK)](https://codecov.io/gh/michurin/tc)
 [![Go Report Card](https://goreportcard.com/badge/github.com/michurin/tc)](https://goreportcard.com/report/github.com/michurin/tc)
 [![Go Reference](https://pkg.go.dev/badge/github.com/michurin/tc.svg)](https://pkg.go.dev/github.com/michurin/tc)
+[![linting](https://img.shields.io/badge/linting-golangci--lint--v2-blue)](https://golangci-lint.run/)
 
 Simple every day type conversion tooling.
 
