@@ -23,7 +23,7 @@ take a look at [documentation](https://pkg.go.dev/github.com/michurin/tc)
 
 ## Types
 
-There are functions to cat `any` to any type with or without fallback to default. Like this:
+There are functions to cast `any` to any type with or without fallback to default. Like this:
 
 ```go
 x := tc.DefCast(ctx.Value("key"), "default") // x = "default" if there is no "key" in context
